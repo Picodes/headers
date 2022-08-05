@@ -13,19 +13,7 @@ Then clone the repo and install the CLI globally like this:
 cargo install --path .
 ```
 
-## Usage
-
-```sh
-λ ./headers "testing 123"
-```
-
-```sh
-// ================================ TESTING 123 ================================
-```
-
-It will also copy the header to your clipboard automatically.
-
-### With VSCode
+### Setup with VSCode
 
 If not done locally in the repo, in your [`tasks.json`](https://stackoverflow.com/questions/41046494/making-global-tasks-in-vs-code) add the command as task:
 
