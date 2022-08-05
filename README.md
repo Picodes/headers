@@ -20,16 +20,14 @@ cargo install --path .
 ```
 
 ```sh
-/*//////////////////////////////////////////////////////////////
-                           TESTING 123
-//////////////////////////////////////////////////////////////*/
+// ================================ TESTING 123 ================================
 ```
 
 It will also copy the header to your clipboard automatically.
 
 ### With VSCode
 
-Set your global [`tasks.json`](https://stackoverflow.com/questions/41046494/making-global-tasks-in-vs-code) like so to add the command as task:
+If not done locally in the repo, in your [`tasks.json`](https://stackoverflow.com/questions/41046494/making-global-tasks-in-vs-code) add the command as task:
 
 ```json
 {
@@ -54,12 +52,12 @@ Set your global [`tasks.json`](https://stackoverflow.com/questions/41046494/maki
 }
 ```
 
-To really speed-up your workflow, you can even add a keybind for the task in [`keybindings.json`](https://code.visualstudio.com/docs/getstarted/keybindings):
+Add a keybind for the task in [`keybindings.json`](https://code.visualstudio.com/docs/getstarted/keybindings):
 
 ```json
 [
   {
-    "key": "CMD+h",
+    "key": "cmd+h",
     "command": "workbench.action.tasks.runTask",
     "args": "Generate Header"
   }
@@ -67,7 +65,3 @@ To really speed-up your workflow, you can even add a keybind for the task in [`k
 ```
 
 This will copy the generated header to your clipboard.
-
-## Credits
-
-Inspired by virtualjpeg's [`blocky`](https://github.com/virtualjpeg/blocky).
