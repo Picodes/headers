@@ -15,7 +15,7 @@ cargo install --path .
 
 ### Setup with VSCode
 
-If not done locally in the repo, in your [`tasks.json`](https://stackoverflow.com/questions/41046494/making-global-tasks-in-vs-code) add the command as task:
+If not done locally in the repo (done already in `savings-rate`), in your [`tasks.json`](https://stackoverflow.com/questions/41046494/making-global-tasks-in-vs-code) add the command as task:
 
 ```json
 {
@@ -40,7 +40,7 @@ If not done locally in the repo, in your [`tasks.json`](https://stackoverflow.co
 }
 ```
 
-Add a keybind for the task in [`keybindings.json`](https://code.visualstudio.com/docs/getstarted/keybindings):
+Add a keybind for the task in [`keybindings.json`](https://code.visualstudio.com/docs/getstarted/keybindings) (can be found by entering vsCode command control via cmd+shift+p and the searching for keyboard shortcuts):
 
 ```json
 [
